@@ -1,0 +1,27 @@
+{
+  "name": "my-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node --no-warnings generate.js",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazytesting/my-slides.git"
+  },
+  "author": "Maarten Groeneweg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazytesting/my-slides/issues"
+  },
+  "homepage": "https://github.com/lazytesting/my-slides#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "squirrelly": "^7.9.0",
+    "serve": "^11.3.0"
+  }
+}

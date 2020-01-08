@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap);
+body { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.title-slide{
+    background-color: black;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+.title-slide h1 {
+    font-size: 3.5em ;
+    text-align: center;
+    margin: 0;
+    position: absolute;              
+    top: 50%;                         
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.title-slide h2, h3 {
+    text-align: center;
+    position: absolute;              
+    top: 65%;  
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.list-slide h1, .list-slide ul {
+    color: black;
+}
+
+.list-left-slide {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.list-left-slide::before {
+    background: rgba(0,0,0,.8);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+}
+
+.list-left-slide h1 {
+    font-size: 1.5em ;
+}
+
+.list-left-slide h1, .list-left-slide ul {
+    position: relative;
+    z-index: 10;
+    margin-left: -5%;
+    width: 30%;
+}
+
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
