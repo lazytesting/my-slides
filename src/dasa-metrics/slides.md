@@ -4,7 +4,7 @@ class: title-slide
 ## Using the DASA metrics
 
 ???
-scrum is a great way 
+Data drives our decisions, how could we do that in our scrum process?
 ---
 class: list-slide
 # Agenda
